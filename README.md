@@ -83,7 +83,7 @@ To better identify the possibility of student dropouts, a machine learning model
 
 ### Action Items
 
-Here are several recommended action items that Jaya Jaya Maju can take to reduce attrition and improve employee retention:
+Based on the insights from the dashboard, here are several recommended actions Jaya Jaya Institut can take to reduce student dropout:
 
 - Provide tutoring, mentoring, or academic counseling for students showing a decline in grades or completion rates. Monitoring grade changes can help identify students who need support early on.
 
