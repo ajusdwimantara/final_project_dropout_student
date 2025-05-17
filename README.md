@@ -61,24 +61,36 @@ After running the metabase dashboard, you need to login using:
 email: root@mail.com  
 password: root123
 
-Then, go to **Our Analytics -> Jaya Jaya Institution -> Jaya Jaya Institution Dashboard**.
+Then, go to **Jaya Jaya Institution -> Jaya Jaya Institution Dashboard**.
 
 ## Runnning The Machine Learning System
-The machine learning inference is made through streamlit library, where it can predict if a student is more likely to dropout based on the important features that gotten from the random forest model. The machine learning inference can be accessed through the following [link](https://google.com)
+The machine learning inference is made through streamlit library, where it can predict if a student is more likely to dropout based on the important features that gotten from the random forest model. The machine learning inference can be accessed through the following [link](https://finalprojectdropoutstudent-cchsum5ntt6djzcpeamappq.streamlit.app/).
 
+to run locally, use
+
+`streamlit run app.py`
 
 ## Conclusion
 
-The HR analytics dashboard of Jaya Jaya Maju provides clear insights into the key factors contributing to the company’s high employee attrition rate. Based on the visualized data, the highest attrition is observed in the Sales and Research & Development departments, particularly among job roles such as Sales Executive, Sales Representative, and Laboratory Technician. This indicates that job stress, workload, or lack of growth opportunities in these roles might be driving higher employee turnover.
+The dashboard reveals several key insights into student dropout trends at Jaya Jaya Institution. Most students fall within the 18–25 age group, which also has the highest number of dropouts, highlighting the need for targeted support for younger students.
 
-Further analysis shows that younger employees (aged 18–25) have the highest attrition rate (34.92%), despite having the least average tenure, suggesting dissatisfaction or lack of engagement among new hires. Moreover, employees living more than 21 km from the office experience the highest attrition (22.19%), implying that commuting distance may also be a contributing factor. Salary hike trends reveal that even with higher salary increases, some salary groups still show significant attrition, suggesting that financial incentives alone may not effectively retain employees. Overall, these insights can help HR target retention strategies more precisely, by improving employee support, onboarding experience, and work-life balance, especially for the identified high-risk segments.
+Students who are not up-to-date with tuition payments show a significantly higher dropout rate, suggesting financial difficulties play a major role in student retention. Similarly, students with stable or worsening approval and grade changes tend to drop out more frequently, indicating that academic performance is another major contributing factor. Students with no scholarships also show a higher dropout count compared to those receiving financial aid.
 
-### Rekomendasi Action Items (Optional)
+Finally, a similar pattern is observed in completion ratio change—students whose academic progress worsens are more likely to drop out. These findings suggest that Jaya Jaya Institution should prioritize academic support, financial assistance, and early intervention strategies to reduce dropout rates.
+
+To better identify the possibility of student dropouts, a machine learning model using Random Forest has been deployed to predict the likelihood of a student dropping out based on key features such as tuition payment status, grade change, age at enrollment, completion ratio change, approval rate change, and scholarship status. This model provides early warnings that enable the institution to proactively identify and support at-risk students before they decide to drop out.
+
+
+### Action Items
 
 Here are several recommended action items that Jaya Jaya Maju can take to reduce attrition and improve employee retention:
 
-- Improve policies and work environment in departments with high attrition, especially in Sales and R&D, by conducting employee satisfaction surveys and offering better support programs or work flexibility.
+- Provide tutoring, mentoring, or academic counseling for students showing a decline in grades or completion rates. Monitoring grade changes can help identify students who need support early on.
 
-- Provide better support and onboarding programs for young and new employees, especially those aged 18–25, to help them adapt and feel more engaged with the company.
+- Since tuition payment status and scholarship holding are significant indicators, consider expanding financial aid options, flexible payment plans, or creating an emergency fund for students facing financial difficulties.
 
-- Consider hybrid work options or transportation allowances for employees who live far from the office to reduce the burden of long commutes.
+- Use age at enrollment and academic performance metrics to segment students and tailor communication. For example, older students may need flexible learning options or career guidance.
+
+- Build a system that continuously tracks changes in approval and completion rates. Notify academic advisors when a student’s metrics begin to drop below a safe threshold.
+
+- Ensure that scholarship criteria don’t unintentionally add pressure or risk dropout. Consider offering counseling to scholarship recipients to help them manage academic expectations.
